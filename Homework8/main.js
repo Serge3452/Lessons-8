@@ -1,6 +1,8 @@
 let btn = document.querySelector(".button1");
 let size = document.querySelector(".element");
-btn.onclick = function () {
-size.classList.color = "red";
-alert (' capez')
- };
+size.style.color ("red");
+btn.style.color ("red");
+//btn.onclick = function () {
+//size.style.сolor = "red";
+//alert (' capez')
+// };
